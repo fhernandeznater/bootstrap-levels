@@ -16,6 +16,8 @@
   background-color: #002244;
 }
 
+
+/* Solid Buttons */
 .button {
   color: white;
   padding: 5px 10px;
@@ -106,10 +108,77 @@
 }
 
 
-.primary-button:hover {
-  background-color: darkblue;
+/* Outline Buttonds */
+.outline-button {
+  background-color: white;
+  border: 2px solid;
+  padding: 3px 8px; 
+  border-radius: 5px;
+  transition: all 0.3s ease;
 }
 
-.primary-button:active {
+/* Blue Outline Button */
+.outline-blue {
+  color: blue;
+  border-color: blue;
+}
+
+.outline-blue:hover {
+  color: white;
   background-color: blue;
+}
+
+/* Gray Outline Button */
+.outline-gray {
+  color: gray;
+  border-color: gray;
+}
+
+.outline-gray:hover {
+  color: white;
+  background-color: gray;
+}
+
+/* Green Outline Button */
+.outline-green {
+  color: green;
+  border-color: green;
+}
+
+.outline-green:hover {
+  color: white;
+  background-color: green;
+}
+
+/* Red Outline Button */
+.outline-red {
+  color: red;
+  border-color: red;
+}
+
+.outline-red:hover {
+  color: white;
+  background-color: red;
+}
+
+/* Orange Outline Button */
+.outline-orange {
+  color: orange;
+  border-color: orange;
+}
+
+.outline-orange:hover {
+  color: white;
+  background-color: orange;
+}
+
+/* Cyan Outline Button */
+.outline-cyan {
+  color: darkcyan;
+  border-color: darkcyan;
+}
+
+.outline-cyan:hover {
+  color: white;
+  background-color: darkcyan;
 }
