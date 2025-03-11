@@ -23,11 +23,24 @@
   box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
   -webkit-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
   -moz-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+
 }
 
-.primary-button {
+
+/* Blue Buttons */
+.button-blue {
   background-color: blue;
 }
+
+.button-blue:hover {
+  background-color: darkblue;
+}
+
+.button-blue:active {
+  background-color: blue;
+}
+
+m
 
 
 .primary-button:hover {
