@@ -23,7 +23,7 @@
   box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
   -webkit-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
   -moz-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
-
+  font-family: sans-serif
 }
 
 
@@ -40,7 +40,70 @@
   background-color: blue;
 }
 
-m
+/* Gray Buttons */
+.button-gray {
+  background-color: gray;
+}
+
+.button-gray:hover {
+  background-color: dimgray;
+}
+
+.button-gray:active {
+  background-color: gray;
+}
+
+/* Green Buttons */
+.button-green {
+  background-color: green;
+}
+
+.button-green:hover {
+  background-color: darkgreen;
+}
+
+.button-green:active {
+  background-color: green;
+}
+
+/* Red Buttons */
+.button-red {
+  background-color: red;
+}
+
+.button-red:hover {
+  background-color: darkred;
+}
+
+.button-red:active {
+  background-color: red;
+}
+
+/* Orange Buttons */
+.button-orange {
+  background-color: orange;
+}
+
+.button-orange:hover {
+  background-color: yellow;
+}
+
+.button-orange:active {
+  background-color: orange;
+}
+
+/* Cyan Buttons */
+.button-cyan {
+  background-color: darkcyan;
+}
+
+.button-cyan:hover {
+  background-color: cyan;
+}
+
+.button-cyan:active {
+  background-color: darkcyan;
+}
 
 
 .primary-button:hover {
