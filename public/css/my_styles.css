@@ -8,11 +8,32 @@
   -moz-box-shadow: 3px -2px 23px -15px rgba(0,0,0,0.75) inset;
 }
 
-
 .fancy-button:hover {
   background-color: darkblue;
 }
 
 .fancy-button:active {
   background-color: #002244;
+}
+
+.button {
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+  -webkit-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+  -moz-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+}
+
+.primary-button {
+  background-color: blue;
+}
+
+
+.primary-button:hover {
+  background-color: darkblue;
+}
+
+.primary-button:active {
+  background-color: blue;
 }
